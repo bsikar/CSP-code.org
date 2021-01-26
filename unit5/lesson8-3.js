@@ -22,21 +22,21 @@ onEvent("shapesButton", "click", function() {updateScreen("shape")});
 function updateScreen(str) {
   // if the color button was pressed change the color of the icons as well as the background
   if (str == "color") {
-    for (var z = 0; z < 20; ++z) {
-      setProperty("icon" + z, "icon-color", rgb(randomNumber(0,255),randomNumber(0,255),randomNumber(0,255),Math.random()));
+    for (var i = 0; i < 20; ++i) {
+      setProperty("icon" + i, "icon-color", rgb(randomNumber(0,255),randomNumber(0,255),randomNumber(0,255),Math.random()));
       setProperty("homeScreen", "background-color", rgb(randomNumber(0,255),randomNumber(0,255),randomNumber(0,255), 0.5));
     }
     // if the location button was pressed change the location of all of the icons
   } else if (str == "location") {
-    for (var o = 0; o < 20; ++o) {
-      setProperty("icon" + o, "x", randomNumber(0, 320));
-      setProperty("icon" + o, "y", randomNumber(0, 420));
+    for (var i = 0; i < 20; ++i) {
+      setProperty("icon" + i, "x", randomNumber(0, 320));
+      setProperty("icon" + i, "y", randomNumber(0, 420));
     }
     // if the shape button was pressed change the shape of all the icons
   } else if (str == "shape"){
     icon = randomNumber(0, iconsList.length-1);
-    for (var u = 0; u < 20; ++u) {
-      setProperty("icon" + u, "image", iconsList[icon]);
+    for (var i = 0; i < 20; ++i) {
+      setProperty("icon" + i, "image", iconsList[icon]);
     }
     // this gets ran the first time the app is ran, it ranomizes everything
   } else {
