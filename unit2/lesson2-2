@@ -1,0 +1,22 @@
+Redundant Paths:
+A->B->D
+A->B->C->D
+A->E->C->D
+A->E->C->B->D
+Any of the paths listen above will work, each letter corresponds with the letter of the person.
+
+Prompt1:
+If the connection on 1 person's end was stopped the whole connection between both people stopped, the messages were sent too slow, and it allowed you to try to connect to someone even if they were already talking with someone else.
+
+Prompt2:
+pt1) The main strength of a distributed network over a centralized network is that a distributed network avoids centralization completely. This allows for connection to the exit node on the network even if the middle/passing node you were originally going through's connection was stopped with yours. This works because since all nodes are connected with each other allowing for different routes to be taken.
+
+pt2) Some weakness of a centralized network are that if connection is cut between 2 points then the connection is stopped and there is a chance of data loss, with a distributed network with so many different paths to get information you wouldn't lose data, but with only 1 path there is a chance something might get mixed up.
+
+Prompt3:
+(How would you use these words to describe today's activity?)
+Computing Device: Everyday when we check our phones, watch TV, and/or play video games on our PC's we are using a computing device. Even our calculators are computing devices.
+
+Computing System: I may be wrong, but I think that a computing system is the same as a computing device. A computing device is a device that does computing, but a device could also be considered a system since a device is made up of more than 1 part. Like a calculator has the same basic components that a desktop has and the same goes with your phone. So I would say everyday when we check our phones, watch tv, and/or play video games on our pc's we are using a computing system. Even our calculators are computing systems.
+
+Computing Network Path: Whenever we access the internet we are connected to a computing network and the path we take to get to said website is the computing networking path. There are 3 main computing network paths, centralized, decentralized, and distributed, each path will get you to the same end goal, but in different ways. Every time you access a website you are following 1 of the 3 paths listed earlier.

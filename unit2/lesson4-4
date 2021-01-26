@@ -1,0 +1,23 @@
+silly class survey:
+1) My favorite food is a double bacon cheese burger with mushrooms and tomatoes.
+2) My favorite type of animal are birds because of how free they are.
+3) My favorite color is pink.
+
+I think that messages are appearing multiple times now because the messages are being sent to multiple routers. If the messages were sent to only 1 router you would only see the messages twice. I think this because I think that the messages are being logged on each router and since there would be 2 routers there would be 2 logs of the messages (one kept on each router).
+
+Do This:
+2) The messages did not always take the the same path from my router to the routers of others.
+3) I did not notice any patterns in the paths the messages took, but I could assume since the internet protocol is optimized the paths the messages took are the paths of least resistance/the fastest path.
+
+The Internet protocol is both similar and different from how we send and receive letters. The internet uses routers and the mail use mailmen. If the post office delivered mail exactly like the routers deliver messages on the Internet, the mailman would sometimes take a different path to deliver each letter to your home, and letters would be written on the outside of the envelope for all to read instead of letters put inside envelopes.
+
+I think that some messages are appearing multiple times because the logs shows that the messages went to more than 1 router. The logs are getting logged on more than 1 router.
+
+
+I notice that the messages are getting sent to multiple routers and not just one. I also notice that the messages are logged on multiple routers not just my router.
+
+The messages I sent did not always take the same path from my router to the others. This could have been because people were leaving and entering.
+
+We can observe the redundancy by in the logs  stored on any of the routers; the logs are stored on each router because routers are fault tolerant.
+
+Some practical reasons that messages might take different paths are for speed and fault tolerant routers. I think that over the years the internet protocol has been improved and optimized for finding the best paths to take in order to get from node to node. The internet protocol makes us take different paths in order to increase speed, and for security reasons.
