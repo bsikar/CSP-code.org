@@ -13,18 +13,18 @@ var icon = randomNumber(0, iconsList.length-1);
 // update the screen
 updateScreen();
 // if any of the buttons are clicked update the screen accordingly 
-onEvent("colorsButton", "click", function() {updateScreen("color")});
-onEvent("colorsButton", "click", function() {updateScreen("color")});
-onEvent("locationsButton", "click", function() {updateScreen("location")});
-onEvent("shapesButton", "click", function() {updateScreen("shape")});
+onEvent("colorsButton", "click", function() { updateScreen("color") });
+onEvent("colorsButton", "click", function() { updateScreen("color") });
+onEvent("locationsButton", "click", function() { updateScreen("location") });
+onEvent("shapesButton", "click", function() { updateScreen("shape") });
 
 // update screen function
 function updateScreen(str) {
   // if the color button was pressed change the color of the icons as well as the background
   if (str == "color") {
     for (var i = 0; i < 20; ++i) {
-      setProperty("icon" + i, "icon-color", rgb(randomNumber(0,255),randomNumber(0,255),randomNumber(0,255),Math.random()));
-      setProperty("homeScreen", "background-color", rgb(randomNumber(0,255),randomNumber(0,255),randomNumber(0,255), 0.5));
+      setProperty("icon" + i, "icon-color", rgb(randomNumber(0,255), randomNumber(0,255) ,randomNumber(0,255), Math.random()));
+      setProperty("homeScreen", "background-color", rgb(randomNumber(0,255), randomNumber(0,255), randomNumber(0,255), 0.5));
     }
     // if the location button was pressed change the location of all of the icons
   } else if (str == "location") {
@@ -46,8 +46,8 @@ function updateScreen(str) {
       setProperty("icon" + i, "y", randomNumber(0, 420));
       setProperty("icon" + i, "width", randomNumber(0, 200));
       setProperty("icon" + i, "height", randomNumber(0, 200));
-      setProperty("icon" + i, "icon-color", rgb(randomNumber(0,255),randomNumber(0,255),randomNumber(0,255),Math.random()));
-      setProperty("homeScreen", "background-color", rgb(randomNumber(0,255),randomNumber(0,255),randomNumber(0,255), 0.5));
+      setProperty("icon" + i, "icon-color", rgb(randomNumber(0,255), randomNumber(0,255), randomNumber(0,255), Math.random()));
+      setProperty("homeScreen", "background-color", rgb(randomNumber(0,255), randomNumber(0,255), randomNumber(0,255), 0.5));
     }
   }
 }
