@@ -33,7 +33,7 @@ function updateScreen(str) {
       setProperty("icon" + i, "y", randomNumber(0, 420));
     }
     // if the shape button was pressed change the shape of all the icons
-  } else if (str == "shape"){
+  } else if (str == "shape") {
     icon = randomNumber(0, iconsList.length-1);
     for (var i = 0; i < 20; ++i) {
       setProperty("icon" + i, "image", iconsList[icon]);
