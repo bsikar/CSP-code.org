@@ -1,0 +1,19 @@
+It is true, I know that 1000000 is 64 so 1000001 would be 65
+
+prompt-
+I do not know, we were just talking about ASCII, but this wouldn't be in ASCII. If this is in ASCII then it wont display anything. Just some white space.
+
+h = 104 (decimal)
+e =
+
+prompt -
+- Yours will only represent letters. You couldn't represent symbols and numbers. Mine is how you should do it. I used ASCII.
+- 1 byte. I know because in programming 1 char is = 1 byte. If I wanted to do math though, 127 is the largest decimal which means DEL in ASCII. I would do 127(decimal) -> binary (1111111). 1111111 is equal to 1 bit less than 1 byte, but the extended ASCII table goes to 255(decimal), 11111111(binary) or 1 byte.
+
+-Since I used the ASCII to binary system there is nothing surprising nor is there anything different from what I had in mine.
+
+-The problem that we are trying to solve today is a number system for ASCII and binary.
+
+-We have not talked about what ASCII really is and how it works.
+
+-I dont completely understand the things my parents say, but I follow their instructions with confidence.

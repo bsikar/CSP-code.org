@@ -1,0 +1,13 @@
+I think you could still represent any fraction. The flippy-do might not allow us to do so, but we can still do so. like 1.0124 (base 10) = 1.0000001100101100101 (base 2). This is just one example. but I think that the idea can be applied to any fraction.
+
+prompt
+0.01 is the smallest the flippy-do can do 0.25 (base 10) = 0.01 (binary)
+0.39 i cant do it, roundoff error
+
+c5 - 63.75
+c6 - 
+12.5, have to round up - > 00000000.01
+00000000.01
+00000000.00
+00000000.1
+.25+.25+0+.5=100%

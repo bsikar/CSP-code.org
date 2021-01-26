@@ -1,0 +1,23 @@
+School Bus Questions:
+When I compress the image it gets worse.
+The compressed file size gets smaller.
+
+My Image (panda):
+Sample Size 10: 201600 bytes -> 2178 bytes
+
+Reflection:
+The images, video, and music are best with lossy compression.
+The text messages are best with lossless compression.
+I say this because the resolution of an image or video is able to decrease on a phone and not be noticed too much. If the image or video is in 4k and you compress it so its 720p on a phone you wont notice it much since the screen is so small. With music you can remove the very lows and very highs. Many songs are compressed with lossy compression. Text messages on the other hand would be better for lossless compression. If you are reading a book it would be "best" to have all the letters on the page.
+
+Scenario 1: 3
+Scenario 2: 1
+Scenario 3: 4
+Scenario 4: 2
+Scenario 5: 3
+Scenario 6: 1
+
+Prompt-
+It is a good idea to use lossless compression when there is data that you cannot lose.
+You should use lossy compression when there is data that you can lose and wont notice it *too* much.
+Personal Preference is  the deciding factor. For an audiophile they would not compress their music. For me I would compress it via lossless compression and for my dad he would compress it via lossy compression. In the end preference is key.

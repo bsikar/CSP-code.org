@@ -1,0 +1,15 @@
+prompt
+-I would want to get updated every hour.
+
+challenge a:
+-6x8=48; 48 bits were needed.
+-Not very long ~2 minutes.
+-It doesn't resemble the reference image as much as I would have liked. Since the canvas is so small I couldn't make it very accurate to the reference image. For example the little details like the curves of the feet and the slots in the wing aren't able to be done on a 6x8 canvas.
+
+challenge b:
+-12x16=192; 192 bits were needed.
+-longer than the last, but still not too long ~3 minutes.
+-Compared to the image in challenge a this one looks a lot closer to how it should look. The larger the canvas is the more detailed you can be.
+
+reflection:
+A quick google search of "how many pixels is 1 inch" would result in this website https://uproer.com/articles/image-size-calculator-px-in/ from here you are able to input 4" x 6" which outputs 300x450 pixels. So I would sample the image by looking at the reference image and then try to copy it. I would use a 300x450 canvas size. My decisions would make my image resemble the reference image .

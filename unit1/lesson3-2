@@ -1,0 +1,39 @@
+I would use a diagram to them and objects that they have seen and used before. I would relate numbers to food such as apples.
+I would say there are two apples and after I eat one there is one apple.
+
+Number 7: 00000111
+Number 7: 07
+Number 7: 7
+Number 7 0x7
+
+001    | Number 1: ccs
+010    | Number 2: csc
+011     | Number 3: css
+100    | Number 4: scc
+101     | Number 5: scs
+110     | Number 6: ssc
+111      | Number 7: sss
+1000 | Number 8: sccc
+
+Rules:
+Take the binary result and replace every 0 with a c and replace every 1 with a s
+
+001       | Number 1: ccs
+010       | Number 2: csc
+011        | Number 3: css
+100       | Number 4: scc
+101        | Number 5: scs
+110        | Number 6: ssc
+111         | Number 7: sss
+1000    | Number 8: sccc
+1001     | Number 9: sccs
+1010     | Number 10: scsc
+1011      | Number 11: scss
+1100     | Number 12: sscc
+1101      | Number 13: sscs
+1110      | Number 14: sssc
+1111       | Number 15: ssss
+10000 | Number 16: scccc
+
+Rules:
+Take the binary result and replace every 0 with a c and replace every 1 with a s
