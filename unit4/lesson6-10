@@ -1,0 +1,16 @@
+1) 
+if (x > 300) { ... }
+else if (x > 200) { ...}
+...
+
+This is an example of putting the most specific case first, if x is less than 300 then great, but if it isn't then the else if statement could be useful here is an example where the code would compile, but not work correctly:
+if (x > 200) { ... }
+else if (x > 300) { ...}
+...
+
+This wouldn't work because if x is not greater then 200 the else if statement would be never read, meaning it is never going to run.
+
+2)
+It is important to put the most specific case first to make sure that the code runs properly; if you fail to do that then the code wont work.
+The helps prevent bugs more than errors since most of the time the code will still compile (depending on the language)
+I am not sure, but higher level langs and rust might not compile because it knows that this is a bug.

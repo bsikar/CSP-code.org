@@ -1,0 +1,1 @@
+You have a variable named myVar, which is most likely some type of int, then the value of myVar is increasing by one everytime the tag id is clicked.
