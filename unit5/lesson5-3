@@ -1,0 +1,1 @@
+A loop is helpful if you only need to use that loop once in whatever function you are calling it. It would not be benifital to make a new function instead of a loop unless you need that function for the code to work or you need to use that function more than once.
