@@ -1,0 +1,50 @@
+* I really enjoyed how fast and easy this assignment was. I had a lot of homework in other classes and it was a refresher to not need to spend a super long time on computer science work.
+* I do not know how to find the music for problem 8, I used a YouTube video and code.org is not playing it for some reason. I do not know how to access their media.
+
+p1: 
+* Is the speaker plugged into a power source?
+* Is the media (phone or computer) working without the speaker?
+* Is the speaker connected to the media device?
+* Does the speaker work with a different media device?
+
+p2:
+I learned to follow the debugging process found on slide 6:
+-------------------------------
+Describe
+The Problem
+
+What do you expect it to do?
+What does it actually do?
+Does it always happen?
+-------------------------------
+Hunt
+For Bugs
+
+Are there warnings or errors?
+What did you change most recently?
+Explain your code to someone else
+Look for code related to the problem
+-------------------------------
+Document
+As You Go
+
+What have you learned?
+What strategies did you use?
+What questions do you have?
+-------------------------------
+Try
+Solutions
+
+Make a small change
+-------------------------------
+p3:
+A good partner is someone who helps you work towards accomplishing a common task.
+
+p4:
+Pair programming allows for another set of eyes to help the coder find what the bugs are and how to improve the code. Pair programming helps with debugging because you have another person who knows what you are trying to do and they are actively helping you search for bugs.
+
+p5:
+Good feedback is feedback that goes into detail about what you need to improve on / fix as well as what you did well. Good feedback goes into detail while bad feedback doesnt. An example of good feedback is "The program is working for the most part, but there is a problem with X. To solve X you can try Y also try looking at line Z in the code since that is most likely the cause. An example of bad feedback is "ah it kinda works".
+
+p6:
+Others offer a new way of looking at your app and they often have ideas that end users would like to have fixed or added. The value of getting feedback even if you arent finished with the app is that you will not spend hours on something that will get cut after feedback is recieved.

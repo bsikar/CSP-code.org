@@ -1,0 +1,76 @@
+Prompt:
+
+Apps are applications that users use to do a intented task. Users can interact with apps in various ways. A user could use a touch screen, mouse, keyboard, body movement, and their voice to interact with an app. Apps can be made to do anything, currently I am working on a cribbage game application that will allow 2 users to play cribbage together.
+Do this:
+
+The user interacts with the app by pressing buttons.
+The overall purpose of this app is to imform the user about water conservation tips.
+The target audience(s) are english and spanish speakers/readers.
+Do this:
+
+The user interacts with the app by pressing buttons and images.
+The overall purpose of this app if for users to test their knowledge of birds.
+The target audience is people who think they know birds.
+Do this:
+
+The user interacts with the app by pressing buttons, reading information, pressing text, and pressing images.
+The overall purpose of this app is to explain improvements that can be made to Hamiliton.
+The target audience is Hamilation residents.
+Do this:
+
+The user interacts with the app by pressing buttons and reading information.
+The overall purpose of this app is to explain how to play 4 sqaure.
+The target audience is people who want/need to learn how to play 4 square.
+Do this:
+
+The user interacts with the app by pressing images and reading information.
+The overall purpose of this app is to have users learn about monarch butterflies.
+The target audience is users who want to learn about monarch butterflies.
+ 
+
+Do This:
+
+Inputs	Outputs
+Pressing a button	A transition happened
+Pressing an image	More (new) information was displayed
+Pressing text	The app said if we were right or wrong
+ 
+
+Prompt:
+
+My favorite app is Netflix. The UI of Netflix looks like a bunch of images where when a user presses the images a video plays. The inputs are pressing images and buttons; the outpus are displaying information and video.
+Do This:
+
+Input: clicking the “Spanish” button → output: the language of all the text on the screen changes to Spanish.
+Input: clicking the “English” button → output: the language of all the text on the screen changes to English.
+Input: clicking the “Next” button → output: the screen changes.
+Do This:
+
+Input: clicking the “Begin” button → output: the screen changes to the first quiz question.
+Input: clicking the “Ostrich" image → output: the screen changes to the second quiz question.
+Input: clicking the “Parrot” image → output: the screen changes to the third quiz question.
+Input: clicking the “Robin” image → output: the screen changes to the “You Lose!!!” screen.
+Do This:
+
+Input: clicking the “Red” button → output: the color box on the screen changes to red.
+Input: clicking the “Blue” button → output: the color box on the screen changes to blue.
+Input: clicking the “Purple” button → output: the color box on the screen changes to purple.
+Do This:
+
+Input: clicking the “More info” button → output: the screen changes to the next screen.
+Input: clicking the “1” or “2” or “3” button → output: the screen reads “Not enough” and a sound plays.
+Input clicking the “4” button → output: the screen reads “Right! You need four players.” and a sound plays.
+Do This:
+
+Input: clicking the “caterpillar” image → output: a larger caterpillar image apperars and the smaller image is hidden.
+Input: clicking the “next” button → output: a new screen with “Click  Me!” apperars.
+Input: clicking the “crysalis” image → output: a larger crysalis image apperars and the smaller image is hidden.
+ 
+
+ 
+
+User Interface: the inputs and outputs that allow a user to interact with a piece of software. User interfaces can include a variety of forms such as buttons, menus, images, text, and graphics.
+
+Input: data that are sent to a computer for processing by a program. Can come in a variety of forms, such as tactile interaction, audio, visuals, or text.
+
+Output: any data that are sent from a program to a device. Can come in a variety of forms, such as tactile interaction, audio, visuals, or text.

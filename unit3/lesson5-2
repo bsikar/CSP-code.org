@@ -1,0 +1,7 @@
+Programming is different from natural spoken language in many ways, one way is that in programming the program cannot infer that you are trying to do; if a program sees code it will only run that code and not make any of its own decisions. Programming is also different from natural spoken language because in programs they understand different syntax than speaking. You would never say for parenthesis int i is equal to 0 while i is less than three add one to i say hi, but instead you would say hi hi hi.
+
+1) They are not easy to follow / they make no sense
+2) The steps are not in order
+3) They are impossible to do
+
+You would not need to change anything with the human language; English at least does not need to improve. We are able to explain and give a set of instructions perfectly well as it is therefore there is no need to change the language. In our language we already have words for transitions and conditionals; we have words for everything for programming and we can just use those words.
