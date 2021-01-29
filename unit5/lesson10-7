@@ -1,0 +1,3 @@
+I would use a for-loop with a if-else statement inside. 
+
+for (.. ; .. ; ..) { if (...) { ... } else { ... } ) }
