@@ -14,7 +14,7 @@ onEvent("forecastButton", "click", function() {
   var x = 0;
 
   while (info.day[x] != 2) {
-    x = randomNumber(0, 600);
+    x = randomNumber(0, info.day.length-1);
   }
   setProperty("cityOutput", "text", info.city[x]);
   setProperty("highTempOutput", "text", info.high[x]);
