@@ -1,3 +1,26 @@
+/* MIT License
+ *
+ * Copyright (c) 2021 Brighton Sikarskie
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy
+ * of this software and associated documentation files (the "Software"), to deal
+ * in the Software without restriction, including without limitation the rights
+ * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ * copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included in all
+ * copies or substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ * SOFTWARE.
+ */
+
 // Home Screen
 // if the `toFruitButton` is pressed show the fruit screen
 onEvent("toFruitButton", "click", function() {
@@ -18,7 +41,9 @@ onEvent("toSandwichButton", "click", function() {
     hideElement("image" + i);
   }
   // update the text in the output
-  setProperty("sandwichOutput", "text", "Your sandwich contains:\n\n");
+  setProperty("sandwichOutput", "text", "Your sandwich contains:
+
+");
 });
 
 // if the `toBothButton` is pressed show the secret screen
@@ -54,7 +79,9 @@ onEvent("fruitGoButton", "click", function() {
     hideElement("image" + i);
   }
 
-  var message = "WOah woAh! You can eat these fruits that I picked for you!:\n\n";
+  var message = "WOah woAh! You can eat these fruits that I picked for you!:
+
+";
   for (var i = 1; i <= randomNumber(3, 5); ++i) {
     var y = randomNumber(0, fruits.fruit.length-1);
     setProperty("image" + i, "image", fruits.image[y]);
@@ -85,7 +112,9 @@ onEvent("sandwichGoButton", "click", function() {
     hideElement("image" + i);
   }
   
-  var message = "Your sandwich contains:\n\n";
+  var message = "Your sandwich contains:
+
+";
   for (var i = 6; i <= 9; ++i) {
     var y;
     if (i == 6) {
@@ -120,7 +149,8 @@ onEvent("secretGoButton", "click", function() {
     hideElement("image" + i);
   }
   
-  var message = "Fruits:\n";
+  var message = "Fruits:
+";
   for (var i = 11; i <= 11+randomNumber(3, 5); ++i) {
     var y = randomNumber(0, fruits.fruit.length-1);
     setProperty("image" + i, "image", fruits.image[y]);
@@ -129,7 +159,10 @@ onEvent("secretGoButton", "click", function() {
     fruitFilter(y);
   }
   
-  message += "\n\nSandwich:\n";
+  message += "
+
+Sandwich:
+";
   
   for (var i = 16; i <= 19; ++i) {
     var y;
