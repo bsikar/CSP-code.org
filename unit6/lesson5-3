@@ -1,0 +1,1 @@
+Amdahl's Law states that the speedup of a parallel algorithm eventually reaches a limit because every time a new process is added the benefits get deluded by the cost of using the process.
