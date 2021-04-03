@@ -1,0 +1,3 @@
+1) You can do complex calculations that do not rely on changing global variable.
+
+2) You can check the result of a function by returning a Boolean in order to see if something is successful.
