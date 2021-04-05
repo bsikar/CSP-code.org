@@ -34,7 +34,7 @@ onEvent("newMileButton", "click", function( ) {
   newTime = getNumber("newMileInput");
   appendItem(mileTimes, newTime);
   totalMiles++;
-  
+
   updateScreen();
 });
 
@@ -44,7 +44,7 @@ function updateScreen(){
   fast();
   slow();
   numberedListDisplay();
-  
+
   setText("avgOutput", avg);
   setText("fastestOutput", fastest);
   setText("slowestOutput", slowest);

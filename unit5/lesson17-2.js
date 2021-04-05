@@ -103,15 +103,15 @@ var sandwich = {
   image: getColumn("toppings", "image"),
 };
 
-// if the `sandwichGoButton` is pressed show the sandwich  
+// if the `sandwichGoButton` is pressed show the sandwich
 onEvent("sandwichGoButton", "click", function() {
   sandwich.toppings = getColumn("toppings", "topping");
   sandwich.image = getColumn("toppings", "image");
-  
+
   for (var i = 6; i <= 10; ++i) {
     hideElement("image" + i);
   }
-  
+
   var message = "Your sandwich contains:
 
 ";
@@ -138,17 +138,17 @@ onEvent("secretBackButton", "click", function() {
   setScreen("homeScreen");
 });
 
-// if the `sandwichGoButton` is pressed show the sandwich  
+// if the `sandwichGoButton` is pressed show the sandwich
 onEvent("secretGoButton", "click", function() {
   sandwich.toppings = getColumn("toppings", "topping");
   sandwich.image = getColumn("toppings", "image");
   fruits.fruit = getColumn("fruits", "fruit");
   fruits.image = getColumn("fruits", "image");
-  
+
   for (var i = 11; i <= 20; ++i) {
     hideElement("image" + i);
   }
-  
+
   var message = "Fruits:
 ";
   for (var i = 11; i <= 11+randomNumber(3, 5); ++i) {
@@ -158,12 +158,12 @@ onEvent("secretGoButton", "click", function() {
     message += fruits.fruit[y] + ", ";
     fruitFilter(y);
   }
-  
+
   message += "
 
 Sandwich:
 ";
-  
+
   for (var i = 16; i <= 19; ++i) {
     var y;
     if (i == 16) {

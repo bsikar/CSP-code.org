@@ -26,7 +26,7 @@ var counter = 0;
 var coinFlips = [];
 
 while(counter < 10){
-  appendItem(coinFlips, randomNumber(0,1));  
+  appendItem(coinFlips, randomNumber(0,1));
   // Increase counter by 1 every time
   // through the loop
   counter++;
@@ -39,7 +39,7 @@ console.log(coinFlips);
 var counter2 = 0;
 var diceRolls = [];
 while(counter2 < 10){
-  appendItem(diceRolls, randomNumber(1,6));  
+  appendItem(diceRolls, randomNumber(1,6));
   // Increase counter by 1 every time
   // through the loop
   counter2++;

@@ -28,7 +28,7 @@ var icon = randomNumber(0, iconsList.length-1);
 
 // update the screen
 updateScreen();
-// if any of the buttons are clicked update the screen accordingly 
+// if any of the buttons are clicked update the screen accordingly
 onEvent("colorsButton", "click", function() { updateScreen("color") });
 onEvent("locationsButton", "click", function() { updateScreen("location") });
 onEvent("shapesButton", "click", function() { updateScreen("shape") });

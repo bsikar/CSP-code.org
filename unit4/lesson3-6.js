@@ -24,7 +24,7 @@
 // Create and assign value to variables
 var age = 16;
 
-// 
+//
  Example
 
 console.log("This
@@ -48,7 +48,7 @@ console.log("I've been alive about " + (age * 52) + " weeks!
 // answer prints on a single line.
 
 console.log("How many days have you been alive?");
-// Add code here. There are 365 days in a year. Use 
+// Add code here. There are 365 days in a year. Use
  to add spaces to your output.
 console.log("I have been alive for " + (age*365) + " days");
 console.log("How many months have you been alive?");

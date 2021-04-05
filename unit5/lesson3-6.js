@@ -38,7 +38,7 @@ onEvent("leftButton", "click", function(){
 
 
 onEvent("rightButton", "click", function(){
-  
+
   if(index < (classes.length - 1)){
     index = index + 1;
   }

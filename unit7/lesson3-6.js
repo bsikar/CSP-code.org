@@ -38,14 +38,14 @@ function longestShortest(typeOfList, list){
 // list {list} - a list of strings to search through
 // return {string} - the string in the list with the fewest characters
 function shortestWord(list){
-  
+
   var shortest = list[0];
   for(var i = 0; i < list.length; i++){
     if (list[i].length < shortest.length){
       shortest = list[i];
     }
   }
-  
+
   return shortest;
 }
 
@@ -59,6 +59,6 @@ function longestWord(list){
       longest = list[i];
     }
   }
-  
+
   return longest;
 }

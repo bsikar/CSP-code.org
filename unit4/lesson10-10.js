@@ -33,7 +33,7 @@ onEvent("adultButton","click",function(){
   // Increase tickets sold and dollars collected
   tickets = tickets + 1;
   dollars = dollars + adultPrice;
-  
+
   // Update screen
   updateScreen();
 });

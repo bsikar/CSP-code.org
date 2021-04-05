@@ -23,7 +23,7 @@
 
 // Creates a new list of the length given and with the same value repeated
 // length {number} - the length of the list to create
-// value {*} - the value to appear in every item of 
+// value {*} - the value to appear in every item of
 function fill(length, value){
   var returnList = [];
   for(var i = 0; i < length; i++){

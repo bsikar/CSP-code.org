@@ -50,7 +50,7 @@ onEvent("scissorsButton","click",function(){
 // of rock paper scissors. This function determines who won the
 // game and updates the screen and scores for each player.
 function updateScreen(playerChoice){
-  
+
   // Randomly choose the computer's choice and decide who wins
   var computerChoice = randomChoose(choices);
   var winner = decideWinner(playerChoice, computerChoice);
@@ -59,7 +59,7 @@ function updateScreen(playerChoice){
   setProperty("playerOutput","image",findIcon(playerChoice));
   setProperty("computerOutput","image",findIcon(computerChoice));
 
-  
+
   // Update the screen with the text explaining who won.
   if(winner == "Draw"){
     setProperty("gameText","text","Draw!");
@@ -70,7 +70,7 @@ function updateScreen(playerChoice){
   } else if (winner == "Computer") {
     setProperty("gameText","text","Computer wins!");
     computerScore++;
-    setProperty("computerScoreOutput","text",computerScore);    
+    setProperty("computerScoreOutput","text",computerScore);
   }
 }
 
@@ -92,7 +92,7 @@ function randomChoose(list){
     return list[randomNumber(0, 2)];
 }
 
-// Decides who wins a round of rock paper scissors by taking the two 
+// Decides who wins a round of rock paper scissors by taking the two
 // playerChoice {string} - either "Rock", "Paper", or "Scissors", the human player's choice
 // computerChoice {string} - either "Rock", "Paper", or "Scissors", the computer player's choice
 // return {string} - either "Draw", "Player", or "Computer", depending on who

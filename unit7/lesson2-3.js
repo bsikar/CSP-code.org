@@ -40,17 +40,17 @@ function filter(len, letter){
   showElement("unclickable");
   filteredWordList = [];
   setText("output", "");
-  
+
   for(var i=0; i<wordList.length; i++){
     if(wordList[i].length == len && wordList[i].substring(0,1)==letter){
         appendItem(filteredWordList, wordList[i]);
-    } 
+    }
   }
-  
+
   if(filteredWordList.length == 0){
     appendItem(filteredWordList, "No Options Available");
   }
-  
+
   hideElement("waitingImage");
   hideElement("unclickable");
   setText("output", filteredWordList.join(", "));

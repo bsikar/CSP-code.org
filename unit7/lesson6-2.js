@@ -32,7 +32,7 @@ onEvent("clickButton", "click", function() {
   setImageURL("skylineImage", StateLibrary.stateSkyline(state));
   setImageURL("sealImage", StateLibrary.stateSeal(state));
   setImageURL("flagImage", StateLibrary.stateFlag(state));
-  
+
   setText("stateInput", "");
 });
 

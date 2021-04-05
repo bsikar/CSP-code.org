@@ -49,15 +49,15 @@ onEvent("randomAssignButton","click",function(){
     var randomIndex1 = randomNumber(0,peopleList.length-1);
     var randomPerson1 = peopleList[randomIndex1];
     removeItem(peopleList,randomIndex1);
-    
+
     var randomIndex2  = randomNumber(0,peopleList.length-1);
     var randomPerson2 = peopleList[randomIndex2];
     removeItem(peopleList,randomIndex2);
-    
+
     var randomIndex3  = randomNumber(0,peopleList.length-1);
     var randomPerson3 = peopleList[randomIndex3];
     removeItem(peopleList,randomIndex3);
-    
+
     setProperty("pairLabel","text",randomPerson1 + " and " + randomPerson2 + " and " + randomPerson3);
 
   } else {

@@ -40,15 +40,15 @@ onEvent("sizeDropdown", "change", function(){
 
 // filters the lists, based on the value in the dropdown
 // if the dog height is under a certain amount and the dropdown matches a value
-// the corresponding name and image will be stored in the filtered lists. 
+// the corresponding name and image will be stored in the filtered lists.
 function filter(){
   // clears the filtered lists
   filteredDogNames = [];
   filteredDogImages = [];
-  
+
   // gets the size from the dropdown
   var dogSize = getText("sizeDropdown");
-  
+
   // traverses the dogHeight List
   // if dogHeight and dogSize meet certain conditions
   // the corresponding names and images are stored in the filtered lists
@@ -62,9 +62,9 @@ function filter(){
     } else if(dogHeight[i] >= 24 && dogSize == "Large") {
       appendItem(filteredDogNames, dogNames[i]);
       appendItem(filteredDogImages, dogImages[i]);
-    } 
+    }
   }
-  
+
   // prints the list of dog names that match the value in the dropdown
   console.log(dogSize + " Dogs:
 " + filteredDogNames);

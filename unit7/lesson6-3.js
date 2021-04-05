@@ -38,12 +38,12 @@ function updateScreen(){
 function pigify(str){
   var list = StringsLibrary.splitStringBySpace(str);
   var newList = [];
-  
+
   for(var i=0; i<list.length; i++){
     var first = StringsLibrary.firstLetter(list[i]);
     var rest = StringsLibrary.allButFirst(list[i]);
     var temp = "";
-    
+
     if(list[i].length < 4){
       temp = list[i];
     } else if (StringsLibrary.hasVowel(first) == true){
@@ -53,7 +53,7 @@ function pigify(str){
     }
     appendItem(newList, temp);
   }
-  
+
   var newString = newList.join(" ");
   console.log(newString);
   return newString;

@@ -30,7 +30,7 @@ onEvent("playScreen", "click", function(){
   // update the index to a random number
   // Use the Random List Access Pattern
   index = randomNumber(0, answers.length-1);
-  
+
   updateScreen();
 });
 

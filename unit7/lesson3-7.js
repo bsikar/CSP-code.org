@@ -32,7 +32,7 @@ onEvent("taxButton", "click", function(){
 
 function totalCost(){
   var total = 0;
-  
+
   for(var i=0; i<5; i++){
     if(getChecked("check" + i)){
       total = total + getNumber("cost" +i);

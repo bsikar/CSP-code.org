@@ -39,7 +39,7 @@ console.log("Q3: Is score minus lives greater than five?");
 console.log((score - lives) > 5);
 console.log("True");
 
-// 
+//
 console.log("Q4: Is score times two greater than or equal to lives times ten?");
 console.log((score*2) >= (lives*10));
 console.log("False");

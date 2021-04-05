@@ -41,6 +41,6 @@ onEvent("guessButton","click",function( ){
 function newState(){
   currentState = StateLibrary.randomState();
   setProperty("flagImage", "image", StateLibrary.stateFlag(currentState));
-  
+
 }
 

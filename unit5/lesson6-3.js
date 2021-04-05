@@ -43,7 +43,7 @@ onEvent("coin", "click", function() {
   }
 
   playSound("sound://category_digital/coin_3.mp3", false);
-  
+
   updateScreen();
 });
 

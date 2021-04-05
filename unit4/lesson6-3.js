@@ -41,13 +41,13 @@ onEvent("lemon", "mouseover", function( ) {
   // :)
   // Increase the score
   score = score + 1;
-  
+
   // Move the lemon and lime to random locations
   setProperty("lemon","x", randomNumber(50,220));
   setProperty("lemon","y", randomNumber(50,320));
   setProperty("lime","x", randomNumber(50,220));
   setProperty("lime","y", randomNumber(50,320));
-  
+
   // Update screen text
   setProperty("scoreLivesLabel","text", "Score: " + score + " Lives: " + lives);
 });
@@ -55,7 +55,7 @@ onEvent("lemon", "mouseover", function( ) {
 // Event handler for when the mouse touches a lime
 onEvent("lime", "mouseover", function( ) {
   playSound("sound://category_retro/retro_game_enemy_spawn_7.mp3", false);
-  
+
   // Decrease lives
   lives = lives - 1;
 
@@ -64,13 +64,13 @@ onEvent("lime", "mouseover", function( ) {
   setProperty("lemon","y", randomNumber(50,320));
   setProperty("lime","x", randomNumber(50,220));
   setProperty("lime","y", randomNumber(50,320));
-  
+
   // Update screen text
   setProperty("scoreLivesLabel","text","Score: " + score + " Lives: " + lives);
 
   // End game when you run out of lives
   if(lives < 0){
-    setScreen("startScreen"); 
+    setScreen("startScreen");
     setProperty("startLabel","text","You collected " + score + " lemons! Play again?");
   }
 });

@@ -54,7 +54,7 @@ function consonantsLower(){
 // Returns a list of all lowercase letters
 // return {list} - list of lowercase letters
 function consonantsUpper(){
-  return ["B","C","D","F","G","H","J","K","L","M","N","P","Q","R","S","T","V","W","X","Y","Z"];  
+  return ["B","C","D","F","G","H","J","K","L","M","N","P","Q","R","S","T","V","W","X","Y","Z"];
 }
 
 // Returns a list of letters
@@ -79,7 +79,7 @@ function getLetters(letterType,upper){
       return vowelsUpper();
 
     } else {
-      return vowelsLower(); 
+      return vowelsLower();
     }
   }
 }

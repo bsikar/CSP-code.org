@@ -23,7 +23,7 @@
 
 /* Global Variables:
 * likes: the number of likes
-* comments: the comments found 
+* comments: the comments found
 * in the "allCommentsOutput" text box
 */
 var likes = 0;
@@ -32,7 +32,7 @@ var comments = "OMG soooo cute!";
 * whenever the user presses the like button
 */
 onEvent("upButton", "click", function() {
-  setProperty("likeCounterOutput", "text", 
+  setProperty("likeCounterOutput", "text",
   "Likes: " + (++likes));
   playSound("like.mp3");
 });
@@ -40,11 +40,11 @@ onEvent("upButton", "click", function() {
 * whenever the user presses the dislike button
 */
 onEvent("downButton", "click", function() {
-  setProperty("likeCounterOutput", "text", 
+  setProperty("likeCounterOutput", "text",
   "Likes: " + (--likes));
   playSound("dislike.mp3");
 });
-/* This code gets user input from the 
+/* This code gets user input from the
 * "newCommentInput" and then displays
 * it appending it to the pre-existing comments
 * then it sets the comment field to nothing

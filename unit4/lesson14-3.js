@@ -38,7 +38,7 @@ function updateScreen() {
   getText("hasTimeLaterDropdown")=="Yes"?hasTimeLater="true":hasTimeLater="false";
   currentGrade = getNumber("currentGradeSlider");
   setProperty("currentGradeOutput", "text", "Current Grade: " + currentGrade + "%");
-  
+
   // output if they should do their homework or not
   if (hasTimeNow || currentGrade < 70) { // if they have time or if they are failing make tell them to do the homework
     setProperty("dontDoHomeworkOutput", "hidden", true);

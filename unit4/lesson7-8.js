@@ -42,5 +42,5 @@ onEvent("star", "click", function() {
   } else {
   	setProperty("star", "icon-color", "pink");
   }
-  
+
 });

@@ -26,7 +26,7 @@ updateScreen();
 
 onEvent("addButton", "click", function(){
   var newFood = getText("diaryInput");
-  
+
   // use appendItem() to add a new item to the food diary list
   appendItem(food, newFood);
 

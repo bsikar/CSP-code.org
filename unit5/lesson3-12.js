@@ -30,13 +30,13 @@ onEvent("updateButton", "click", function( ) {
   // Add code to get the name of the new song and its position in the list
   var rank = getNumber("rankDropdown")-1;
   var name = getText("songInput");
-  
+
   // Add code to insert the song into the list at the position indicated
   insertItem(songList, rank, name);
-  
+
   // Add code to remove the last item from the list
   removeItem(songList, songList.length-1);
-  
+
   playSound("sound://category_slide/whoosh_4.mp3");
   updateScreen();
 });

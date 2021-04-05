@@ -21,8 +21,8 @@
  * SOFTWARE.
  */
 
-// Example #1 The Boolean expression on line 4 is another way 
-// of writing the conditional statement on lines 7-11. 
+// Example #1 The Boolean expression on line 4 is another way
+// of writing the conditional statement on lines 7-11.
 var y = 8;
 var x = (y < 6);
 console.log(x);

@@ -28,8 +28,8 @@ var gradesList = [];
 onEvent("addGradeButton","click",function(){
   var newGrade = getNumber("gradeInput");
   appendItem(gradesList,newGrade);
-  
-  updateScreen();  
+
+  updateScreen();
 });
 
 onEvent("averageGradeButton","click",function(){

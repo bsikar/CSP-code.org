@@ -21,7 +21,7 @@
  * SOFTWARE.
  */
 
-// Displays information about three different people in the console. 
+// Displays information about three different people in the console.
 nameAndAge("Lenora", 15, "March");
 nameAndAge("Tan", 3, "July");
 nameAndAge("Laquan", 9, "October");
@@ -65,7 +65,7 @@ function monthToSeason(month){
   case "April":
   case "May": return "Spring";
   case "June":
-  case "July": 
+  case "July":
   case "August": return "Summer";
   case "September":
   case "October":

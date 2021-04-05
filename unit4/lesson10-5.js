@@ -35,7 +35,7 @@ onEvent("downButton", "click", function( ) {
   // add code to update the screen
   updateScreen();
 
-  
+
 });
 
 // When the up button is clicked

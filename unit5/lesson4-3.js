@@ -25,12 +25,12 @@
 var reminderList = [];
 var countOutput = 0;
 
-// show "Add Reminders!" when the app is ran, 
+// show "Add Reminders!" when the app is ran,
 // but do not show "Add Reminders!" when the app
 // hasn't been ran
 setProperty("reminderOutput", "text", "Add Reminders!");
 
-// if the button "Add" is clicked then 
+// if the button "Add" is clicked then
 // add an item to the reminderList
 // increase the count (if its zero meaning you wont see the screen that says "Add Reminders!")
 // and update screen

@@ -131,7 +131,7 @@ onEvent("startButtonC", "click", function() {
 onEvent("c++ButtonC", "click", function() {
     setScreen("mainScreenC++");
     console.log("Sending you to the c++ home page");
-});  
+});
 // setup screen:
 // back button
 onEvent("setupBackButtonC", "click", function() {

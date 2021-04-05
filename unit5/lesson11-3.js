@@ -25,7 +25,7 @@
 var favoritePets = ["dogs","cats","parrot","guinea pig","iguana"];
 console.log("Here's my list of favorite pets");
 
-// Printing and numbering every element in pets list 
+// Printing and numbering every element in pets list
 var pet;
 for (var i = 0; i < favoritePets.length; i++) {
   pet = favoritePets[i];

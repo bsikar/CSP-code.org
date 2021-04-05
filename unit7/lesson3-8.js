@@ -39,8 +39,8 @@ function randomGreeting(name){
 // name {string} - the name of a person
 // return {string} - the complete compliment which combines the random compliment with a name
 function randomCompliment(name){
-  var compliments = [", you have incredible hair!", ", you are astonishingly smart!", 
-  ", your fashion sense is unmatched!", ", your smile lights up the room!", 
+  var compliments = [", you have incredible hair!", ", you are astonishingly smart!",
+  ", your fashion sense is unmatched!", ", your smile lights up the room!",
   ", you are uncommonly talented!", ", you are ridiculously funny!"];
   var statement = name + compliments[randomNumber(0, compliments.length-1)];
   return statement;

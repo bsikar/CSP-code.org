@@ -48,7 +48,7 @@ Do this:
 The user interacts with the app by pressing images and reading information.
 The overall purpose of this app is to have users learn about monarch butterflies.
 The target audience is users who want to learn about monarch butterflies.
- 
+
 
 Do This:
 
@@ -56,7 +56,7 @@ Inputs	Outputs
 Pressing a button	A transition happened
 Pressing an image	More (new) information was displayed
 Pressing text	The app said if we were right or wrong
- 
+
 
 Prompt:
 
@@ -87,9 +87,9 @@ Do This:
 Input: clicking the “caterpillar” image → output: a larger caterpillar image apperars and the smaller image is hidden.
 Input: clicking the “next” button → output: a new screen with “Click  Me!” apperars.
 Input: clicking the “crysalis” image → output: a larger crysalis image apperars and the smaller image is hidden.
- 
 
- 
+
+
 
 User Interface: the inputs and outputs that allow a user to interact with a piece of software. User interfaces can include a variety of forms such as buttons, menus, images, text, and graphics.
 

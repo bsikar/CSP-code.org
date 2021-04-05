@@ -21,11 +21,11 @@
  * SOFTWARE.
  */
 
-var phrases = ["The quick brown fox jumps over the lazy dog", 
-               "To be or not to be, that is the question", 
+var phrases = ["The quick brown fox jumps over the lazy dog",
+               "To be or not to be, that is the question",
                "Lorem ipsum dolor sit amet",
                "Try to be a rainbow in someone's cloud"];
-               
+
 onEvent("textInput", "input", function( ) {
   for (var i = 0; i < 5; i++) {
     setProperty("text"+i, "text", getText("textInput"));
