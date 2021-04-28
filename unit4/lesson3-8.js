@@ -11,9 +11,9 @@ setProperty("reminderText", "text", allReminders);
 // input box should be cleared out for the next
 // reminder.
 onEvent("reminderButton", "click", function() {
-  newReminder = getText("reminderInput");
-  allReminders = allReminders + "
-" +newReminder;
-  setProperty("reminderText", "text", allReminders);
-  setProperty(" ");
+    newReminder = getText("reminderInput");
+    allReminders = allReminders + "
+    " +newReminder;
+    setProperty("reminderText", "text", allReminders);
+    setProperty(" ");
 });

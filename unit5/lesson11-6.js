@@ -7,10 +7,10 @@ var price;
 
 // Traversing list to find minimum value
 for (var i = 0; i < prices.length; i++) {
-  price = prices[i];
-  if(price < minPrice){
-  minPrice = price;
-  }
+    price = prices[i];
+    if (price < minPrice) {
+        minPrice = price;
+    }
 }
 
 console.log("The minimum price is $" + minPrice);
@@ -19,10 +19,10 @@ console.log("The minimum price is $" + minPrice);
 var maxPrice = prices[0];
 
 // Traverse the list to find the maximum value
-for (var i = 0; i < prices.length-1; i++) {
-  if (prices[i] > maxPrice) {
-  maxPrice = prices[i];
-  }
+for (var i = 0; i < prices.length - 1; i++) {
+    if (prices[i] > maxPrice) {
+        maxPrice = prices[i];
+    }
 }
 
 console.log("The maximum price is $" + maxPrice);

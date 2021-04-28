@@ -12,4 +12,4 @@ console.log((2 * 2) >= 5);
 console.log("Q5: Is ten less than or equal to ten?");
 console.log(10 <= 10);
 console.log("Q6: Is ten minus three greater than three times three?");
-console.log(10-3 > 3*3);
+console.log(10 - 3 > 3 * 3);

@@ -11,4 +11,4 @@ console.log("The fifth animal in the list is a: ");
 console.log(animals[4]);
 console.log("The last animal in the list is a: ");
 // print the last animal in the list to the console.
-console.log(animals[animals.length-1]);
+console.log(animals[animals.length - 1]);

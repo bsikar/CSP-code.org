@@ -4,10 +4,10 @@ var flips2 = [];
 var flips3 = [];
 
 // For loop to fill the lists
-for(var i = 0; i < 10; i++){
-  appendItem(flips1, randomNumber(0,1));
-  appendItem(flips2, randomNumber(0,1));
-  appendItem(flips3, randomNumber(0,1));
+for (var i = 0; i < 10; i++) {
+    appendItem(flips1, randomNumber(0, 1));
+    appendItem(flips2, randomNumber(0, 1));
+    appendItem(flips3, randomNumber(0, 1));
 }
 
 // Display results

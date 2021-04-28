@@ -4,10 +4,10 @@ var y = 8;
 var x = (y < 6);
 console.log(x);
 
-if(y < 6){
-  x = true;
+if (y < 6) {
+    x = true;
 } else {
-  x = false;
+    x = false;
 }
 console.log(x);
 
@@ -18,9 +18,8 @@ var b = (a > 2);
 console.log(b);
 
 if (a > 2) {
-  b = true;
-}
-else {
-  b = false;
+    b = true;
+} else {
+    b = false;
 }
 console.log(b);

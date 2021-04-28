@@ -4,27 +4,27 @@ var tails = 0;
 var totalFlips = 0;
 
 onEvent("coin", "click", function() {
-  heads = 0;
-  tails = 0;
-  totalFlips = getNumber("flipNum");
+    heads = 0;
+    tails = 0;
+    totalFlips = getNumber("flipNum");
 
-  for (var i = 0; i < totalFlips; i++) {
-  var flip = randomNumber(0, 1);
-  if(flip == 0){
-    // Increase heads by 1
-    heads++;
-  } else {
-    // Increase tails by 1
-    tails++;
-  }
-  }
+    for (var i = 0; i < totalFlips; i++) {
+        var flip = randomNumber(0, 1);
+        if (flip == 0) {
+            // Increase heads by 1
+            heads++;
+        } else {
+            // Increase tails by 1
+            tails++;
+        }
+    }
 
-  playSound("sound://category_digital/coin_3.mp3", false);
+    playSound("sound://category_digital/coin_3.mp3", false);
 
-  updateScreen();
+    updateScreen();
 });
 
-function updateScreen(){
-  setText("totalHeads", heads);
-  setText("totalTails", tails);
+function updateScreen() {
+    setText("totalHeads", heads);
+    setText("totalTails", tails);
 }

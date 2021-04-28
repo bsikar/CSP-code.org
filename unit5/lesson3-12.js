@@ -3,34 +3,33 @@ var songList = ["The Twist", "Stop! In the Name of Love", "Dancing in the Street
 
 updateScreen();
 
-onEvent("updateButton", "click", function( ) {
-  // Add code to get the name of the new song and its position in the list
-  var rank = getNumber("rankDropdown")-1;
-  var name = getText("songInput");
+onEvent("updateButton", "click", function() {
+    // Add code to get the name of the new song and its position in the list
+    var rank = getNumber("rankDropdown") - 1;
+    var name = getText("songInput");
 
-  // Add code to insert the song into the list at the position indicated
-  insertItem(songList, rank, name);
+    // Add code to insert the song into the list at the position indicated
+    insertItem(songList, rank, name);
 
-  // Add code to remove the last item from the list
-  removeItem(songList, songList.length-1);
+    // Add code to remove the last item from the list
+    removeItem(songList, songList.length - 1);
 
-  playSound("sound://category_slide/whoosh_4.mp3");
-  updateScreen();
+    playSound("sound://category_slide/whoosh_4.mp3");
+    updateScreen();
 });
 
-onEvent("rankDropdown", "change", function( ) {
-  playSound("sound://category_board_games/card_dealing_single.mp3");
+onEvent("rankDropdown", "change", function() {
+    playSound("sound://category_board_games/card_dealing_single.mp3");
 });
 
-onEvent("songInput", "click", function( ) {
-  playSound("sound://category_pop/deep_bubble_notification.mp3");
+onEvent("songInput", "click", function() {
+    playSound("sound://category_pop/deep_bubble_notification.mp3");
 });
 
-function updateScreen(){
-  setProperty("songsOutput", "text", songList.join("
-"));
-}
+function updateScreen() {
+    setProperty("songsOutput", "text", songList.join("
+                "));
+            }
 
-var test = 0;
-var test = 1;
-console.log(test);
+            var test = 0;
+            var test = 1; console.log(test);

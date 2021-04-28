@@ -3,16 +3,16 @@ var index = 0;
 
 updateScreen();
 
-onEvent("playScreen", "click", function(){
-  // update the index to a random number
-  // Use the Random List Access Pattern
-  index = randomNumber(0, answers.length-1);
+onEvent("playScreen", "click", function() {
+    // update the index to a random number
+    // Use the Random List Access Pattern
+    index = randomNumber(0, answers.length - 1);
 
-  updateScreen();
+    updateScreen();
 });
 
-function updateScreen(){
-  // set the text of "answerOutput"
-  setText("answerOutput", answers[index]);
-  playSound("sound://category_pop/bubble_pop_cluster_2.mp3");
+function updateScreen() {
+    // set the text of "answerOutput"
+    setText("answerOutput", answers[index]);
+    playSound("sound://category_pop/bubble_pop_cluster_2.mp3");
 }

@@ -8,22 +8,22 @@ updateScreen();
 // When the user clicks the upButton increase the
 // score and then update the screen.
 onEvent("upButton", "click", function() {
-  count = count + 1;
-  updateScreen();
+    count = count + 1;
+    updateScreen();
 });
 
 // When the user clicks the downButton decrease the
 // score and then update the screen.
 onEvent("downButton", "click", function() {
-  count = count - 1;
-  updateScreen();
+    count = count - 1;
+    updateScreen();
 });
 
 // Declare the updateScreen function
-function updateScreen(){
-  setText("countDisplayLabel", count);
-  if (count >= 15 || count <= -15) {
-  setScreen("gameOverScreen");
-  setText("finalScoreLabel", count);
-  }
+function updateScreen() {
+    setText("countDisplayLabel", count);
+    if (count >= 15 || count <= -15) {
+        setScreen("gameOverScreen");
+        setText("finalScoreLabel", count);
+    }
 }

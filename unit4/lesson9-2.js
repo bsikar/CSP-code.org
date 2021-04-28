@@ -38,9 +38,9 @@ console.log("I didn't know I was lost");
 // Add code here to sing the chorus once
 
 // Declaring the singChorus function
-function singChorus(){
-  console.log("So wake me up when it's all over");
-  console.log("When I'm wiser and I'm older");
-  console.log("All this time I was finding myself");
-  console.log("And I didn't know I was lost");
+function singChorus() {
+    console.log("So wake me up when it's all over");
+    console.log("When I'm wiser and I'm older");
+    console.log("All this time I was finding myself");
+    console.log("And I didn't know I was lost");
 }

@@ -22,5 +22,5 @@ console.log("years old");
 
 console.log("I have lived for about");
 // Add code here to calculate your age in months.
-console.log(myAge*12);
+console.log(myAge * 12);
 console.log("months");

@@ -18,5 +18,5 @@ console.log("True");
 
 //
 console.log("Q4: Is score times two greater than or equal to lives times ten?");
-console.log((score*2) >= (lives*10));
+console.log((score * 2) >= (lives * 10));
 console.log("False");

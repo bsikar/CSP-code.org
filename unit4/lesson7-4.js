@@ -5,7 +5,7 @@ var grainServings = 4;
 // Predict how the first three questions will be answered. Then run the code
 // to check your predictions.
 console.log("Q1: Am I eating more than 3 fruitservings AND more than 5 vegetable servings?");
-console.log((fruitServings > 3 )&&(vegServings > 5));
+console.log((fruitServings > 3) && (vegServings > 5));
 console.log("False");
 
 console.log("Q2: Am I eating 4 or fewer grain servings AND 4 or fewer fruit servings?");

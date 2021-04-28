@@ -8,5 +8,5 @@ console.log("My Favorite Songs:");
 var songs = ["sdafa", "fsda", "dsfafdas", "sdfa"];
 // print the list to the console
 for (var i = 0; i < songs.length; ++i) {
-  console.log(songs[i]);
+    console.log(songs[i]);
 }

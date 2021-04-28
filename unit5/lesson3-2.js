@@ -9,5 +9,5 @@ console.log("My UnluckyNumbers:");
 
 // print the list to the console
 for (var i = 0; i < list.length; ++i) {
-  console.log(list[i]);
+    console.log(list[i]);
 }
