@@ -1,25 +1,3 @@
-MIT License
-
-Copyright (c) 2021 Brighton Sikarskie
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
-
 They both are valid systems. They could be used for the same things, but not really. Like you cant use base 10 in places where you *need* to use base 2 and vise versa. You could try, but it wouldn't be effective. You would never use base 2 to buy a house. Saying that your house is worth $1111010000100100000 is ridiculous, but base 8 could work $7A120 sound weird, but is easier to say. Over all base 2 and base 10 mean the same thing, but one is (base 2) longer then the other (amount of characters to represent a given value).
 
 7: 00000111

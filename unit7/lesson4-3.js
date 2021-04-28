@@ -1,26 +1,3 @@
-/* MIT License
- *
- * Copyright (c) 2021 Brighton Sikarskie
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- */
-
 // List of icons that can be used in the game
 var icons = ["icon://fa-hand-rock-o", "icon://fa-hand-paper-o", "icon://fa-hand-scissors-o"];
 
@@ -62,34 +39,34 @@ function updateScreen(playerChoice){
 
   // Update the screen with the text explaining who won.
   if(winner == "Draw"){
-    setProperty("gameText","text","Draw!");
+  setProperty("gameText","text","Draw!");
   } else if (winner == "Player") {
-    setProperty("gameText","text","You win!");
-    playerScore++;
-    setProperty("playerScoreOutput","text",playerScore);
+  setProperty("gameText","text","You win!");
+  playerScore++;
+  setProperty("playerScoreOutput","text",playerScore);
   } else if (winner == "Computer") {
-    setProperty("gameText","text","Computer wins!");
-    computerScore++;
-    setProperty("computerScoreOutput","text",computerScore);
+  setProperty("gameText","text","Computer wins!");
+  computerScore++;
+  setProperty("computerScoreOutput","text",computerScore);
   }
 }
 
 // iconName {string} - either "Rock", "Paper", or "Scissors"
 // return {string} - the icon associated with the string provided
 function findIcon(iconName){
-    if (iconName == "Paper") {
-      return icons[1];
-    } else if (iconName == "Scissors") {
-      return icons[2];
-    }
-    return icons[0];
+  if (iconName == "Paper") {
+    return icons[1];
+  } else if (iconName == "Scissors") {
+    return icons[2];
+  }
+  return icons[0];
 }
 
 // Randomly selects an item from the list provided and returns it
 // list {list} - a list of items
 // return {item} - a randomly chosen item from the list
 function randomChoose(list){
-    return list[randomNumber(0, 2)];
+  return list[randomNumber(0, 2)];
 }
 
 // Decides who wins a round of rock paper scissors by taking the two
@@ -98,21 +75,21 @@ function randomChoose(list){
 // return {string} - either "Draw", "Player", or "Computer", depending on who
 function decideWinner(user, computer){
   if (user == computer) {
-    return "Draw";
+  return "Draw";
   } else if (user == "Rock") {
-    if (computer == "Paper") {
-      return "Computer";
-    }
-  } else if (user == "Paper") {
-    if (computer == "Scissors") {
-      return "Computer";
-    }
-  } else if (user == "Scissors") {
-    if (computer == "Rock") {
-      return "Computer";
-    }
-  } else {
+  if (computer == "Paper") {
     return "Computer";
+  }
+  } else if (user == "Paper") {
+  if (computer == "Scissors") {
+    return "Computer";
+  }
+  } else if (user == "Scissors") {
+  if (computer == "Rock") {
+    return "Computer";
+  }
+  } else {
+  return "Computer";
   }
   return "Player";
 }

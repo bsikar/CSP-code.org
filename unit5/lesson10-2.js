@@ -1,26 +1,3 @@
-/* MIT License
- *
- * Copyright (c) 2021 Brighton Sikarskie
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy
- * of this software and associated documentation files (the "Software"), to deal
- * in the Software without restriction, including without limitation the rights
- * to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
- * copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included in all
- * copies or substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
- * IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
- * FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
- * AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
- * LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
- * SOFTWARE.
- */
-
 // create the variables
 var mileTimes = [];
 var avg = 0;
@@ -56,7 +33,7 @@ function updateScreen(){
 function average(){
   var total = 0;
   for(var i=0; i<mileTimes.length; i++){
-    total = total + mileTimes[i];
+  total = total + mileTimes[i];
   }
   avg = total / mileTimes.length;
 }
@@ -64,9 +41,9 @@ function average(){
 function slow(){
   var temp = 0;
   for(var i=0; i<mileTimes.length; i++){
-    if(mileTimes[i] > temp){
-      temp = mileTimes[i];
-    }
+  if(mileTimes[i] > temp){
+    temp = mileTimes[i];
+  }
   }
   slowest = temp;
 }
@@ -74,9 +51,9 @@ function slow(){
 function fast(){
   var temp = mileTimes[0];
   for(var i=0; i<mileTimes.length; i++){
-    if(mileTimes[i]< temp){
-      temp = mileTimes[i];
-    }
+  if(mileTimes[i]< temp){
+    temp = mileTimes[i];
+  }
   }
   fastest = temp;
 }
@@ -84,7 +61,7 @@ function fast(){
 function numberedListDisplay(){
   var temp = "";
   for(var i=0; i<mileTimes.length; i++){
-      temp = temp + "Mile " + (i+1) + ": " + mileTimes[i] + "
+    temp = temp + "Mile " + (i+1) + ": " + mileTimes[i] + "
 ";
   }
   setText("milesOutput", temp);
@@ -93,7 +70,7 @@ function numberedListDisplay(){
 function myFunction() {
   var result = 0;
   for (var i = 0; i < mileTimes.length; ++i) {
-    result += mileTimes[i];
+  result += mileTimes[i];
   }
   console.log(result);
 }
